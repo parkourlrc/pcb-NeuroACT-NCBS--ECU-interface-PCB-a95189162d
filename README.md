@@ -1,9 +1,9 @@
-# SMA Interface PCB
+# ECU Interface PCB
 
-KiCad PCB design for a reward-well controller for behavioral neuroscience experiments.
+KiCad PCB design for a reward-well/environmental setup controller for behavioral neuroscience experiments.
 
 ## Function
-
+needs a rewrite. 
 Built around an **RP2040-Zero** microcontroller. Takes 6 SMA coaxial sensor inputs from the spikegadgets ECU, through a schmitt-trigger buffer, and drives 4 TMC2209 stepper motors for reward dispensing. 8× AO3400A MOSFETs switch light and sounds. Two stacked USB-A ports allow to connect with the reward wells.
 
 ## Requirements
